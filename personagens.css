@@ -1,0 +1,43 @@
+/*conjunto de estilos aplicados á página    */
+body{
+    color:white;
+    background: #5095e4;   
+}
+#titulo{
+   text-align: center;
+    color:#2f6ed3;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+.grid-container{
+    width: 45rem;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 16px 16px;
+    padding: 1rem;
+    grid-gap: 2rem; 
+   
+    }
+
+.grid-container img{
+    width: 150px;
+    height: 150px;  
+    border-radius: 5px;
+
+}
+.grid-container p{
+    color:#4d6f80;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 0.5;
+    margin-bottom: 0.05rem;
+}
+#rodape{
+    font-size: medium;
+    color: red;
+    font-style: italic;
+    line-height: 1rem;
+
+}
